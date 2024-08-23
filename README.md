@@ -35,7 +35,6 @@ Sigue estos pasos para instalar el proyecto:
 4. Crea un archivo `.env` en la raíz del proyecto y define tus variables de entorno. Aquí tienes un ejemplo de cómo debería verse tu archivo `.env` para conectarte a la DB:
 
    ```env
-   # Database Configuration
 DB_HOST=localhost
 DB_NAME=tu_base_de_datos
 DB_USER=tu_usuario
