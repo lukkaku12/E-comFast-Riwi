@@ -54,7 +54,3 @@ Esto iniciará el servidor en el puerto especificado en tu archivo `.env`.
 ## Contribución
 
 Si deseas contribuir al proyecto, siéntete libre de enviar un pull request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
