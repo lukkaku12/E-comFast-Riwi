@@ -1,7 +1,7 @@
 
-# Nombre del Proyecto
+# E-comFast Riwi
 
-Descripción breve del proyecto.
+E-commerce online sencillo...
 
 ## Requisitos Previos
 
@@ -17,13 +17,13 @@ Sigue estos pasos para instalar el proyecto:
 1. Clona el repositorio:
 
    ```bash
-   git clone <URL-del-repositorio>
+   git clone [<URL-del-repositorio>](https://github.com/lukkaku12/E-comFast-Riwi.git)
    ```
 
 2. Navega al directorio del proyecto:
 
    ```bash
-   cd nombre-del-proyecto
+   cd E-comFast-Riwi
    ```
 
 3. Instala las dependencias:
@@ -32,15 +32,16 @@ Sigue estos pasos para instalar el proyecto:
    npm install
    ```
 
-4. Crea un archivo `.env` en la raíz del proyecto y define tus variables de entorno. Aquí tienes un ejemplo de cómo debería verse tu archivo `.env`:
+4. Crea un archivo `.env` en la raíz del proyecto y define tus variables de entorno. Aquí tienes un ejemplo de cómo debería verse tu archivo `.env` para conectarte a la DB:
 
    ```env
-   PORT=3000
-   DATABASE_URL=mongodb://localhost:27017/mi_base_de_datos
-   SECRET_KEY=mi_secreto
+   # Database Configuration
+DB_HOST=localhost
+DB_NAME=tu_base_de_datos
+DB_USER=tu_usuario
+DB_PASSWORD=tu_contraseña
+DB_PORT=3306
    ```
-
-   Asegúrate de reemplazar los valores con los que necesites para tu proyecto.
 
 ## Uso
 
