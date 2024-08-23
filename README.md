@@ -41,6 +41,7 @@ DB_NAME=tu_base_de_datos
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
 DB_PORT=3306
+ ```
 
 ## Uso
 
